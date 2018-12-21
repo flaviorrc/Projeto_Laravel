@@ -298,6 +298,9 @@ a:focus {
 .main-header .logo .logo-lg {
   display: block;
 }
+.main-header .logo .logo-lg img {
+  max-width: 160px;
+}
 .main-header .logo .logo-mini {
   display: none;
 }
@@ -3244,6 +3247,11 @@ table.text-center th {
 .register-logo a {
   color: #444;
 }
+
+.login-logo a img{
+  max-width: 360px;
+}
+
 .login-page,
 .register-page {
   background: #d2d6de;
